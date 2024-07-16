@@ -34,29 +34,7 @@ Before you begin, ensure you have the following software installed on your syste
    cp .env.example .env
    ```
 
-   Open the `.env` file in a text editor and update the following variables:
-
-   ```dotenv
-   APP_NAME=Laravel
-   APP_ENV=local
-   APP_KEY=base64:GENERATED_APP_KEY
-   APP_DEBUG=true
-   APP_URL=http://localhost
-
-   DB_CONNECTION=mysql
-   DB_HOST=127.0.0.1
-   DB_PORT=3306
-   DB_DATABASE=your_database_name
-   DB_USERNAME=your_database_user
-   DB_PASSWORD=your_database_password
-
-   BROADCAST_DRIVER=log
-   CACHE_DRIVER=file
-   FILESYSTEM_DRIVER=local
-   QUEUE_CONNECTION=sync
-   SESSION_DRIVER=file
-   SESSION_LIFETIME=120
-   ```
+   Now update the env based on your env variables
 
 5. **Generate the application key:**
 
