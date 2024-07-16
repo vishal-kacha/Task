@@ -150,7 +150,7 @@ Schema::create('products', function (Blueprint $table) {
 1. **Install dependencies:**
 
     ```sh
-    cd laravel-api-app
+    cd task3
     composer install
     ```
 
